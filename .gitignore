@@ -1,0 +1,22 @@
+# Ignore upload zip
+upload_to_csgo.zip
+_downloads/
+
+# WeaponPaints config with DB credentials - NEVER commit this!
+addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json
+
+# CounterStrikeSharp core config (may contain sensitive settings)
+addons/counterstrikesharp/configs/core.json
+
+# CSS generated data
+addons/counterstrikesharp/configs/admins.json
+addons/counterstrikesharp/configs/admingroups.json
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
